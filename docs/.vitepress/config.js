@@ -27,11 +27,10 @@ export default {
     ],
     sidebar: [
       {
-        text: '前端工程化',
+        text: '奇奇怪怪的工具',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Introduction', link: '/introduction' },
+          { text: 'watt Toolkit', link: '/tool/好用的工具' },
         ]
       },
       {
