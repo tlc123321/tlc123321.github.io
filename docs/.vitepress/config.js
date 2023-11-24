@@ -1,10 +1,10 @@
 export default {
+  lang: 'zh-CN',
   title: '无名小站', // 标题
   titleTemplate: '咚咚', // 标题的后缀
   description: '世界更美好',
   ignoreDeadLinks: true,
   lastUpdated: true,
-  lastUpdatedText: 'Updated Date',
   themeConfig: {
     logo: '/logo.png',
     nav: [
@@ -24,7 +24,7 @@ export default {
         text: '友链',
         link: '/friends/',
       }
-    ],
+    ], // 右上角导航栏
     sidebar: [
       {
         text: '奇奇怪怪的工具',
@@ -37,7 +37,7 @@ export default {
         text: 'vue相关',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/introduction' },
+          { text: 'Introduction', link: '/tool/introduction' },
         ]
       },
       {
@@ -55,12 +55,24 @@ export default {
           { text: 'Introduction', link: '/aa/b' },
         ]
       }
-    ],
+    ], // 侧边栏菜单
     socialLinks: [
       {
         icon: 'github',
         link: ''
       },
-    ], // 带有图标的链接
+    ], // 右上角带有图标的链接
+    lastUpdatedText: '最后更新时间', // 最后更新时间
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present Evan You'
+    },
+    search: {
+      provider: 'local'
+    }, // 搜索
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    }, // 上一篇下一篇
   }
 }
