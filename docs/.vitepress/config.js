@@ -9,10 +9,9 @@ export default {
   ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
-    logo: {
-      src: '../images/preview.jpg',
-      alt: '后藤独'
-    },
+    // logo: {
+    //   src: '../images/preview.jpg',
+    // },
     nav: [
       {
         text: '首页',
