@@ -3,6 +3,7 @@ const currentYear = new Date().getFullYear()
 export default {
   lang: 'zh-CN',
   title, // 标题
+  base: '/base/',
   titleTemplate: '咚咚', // 标题的后缀
   description: '世界更美好',
   ignoreDeadLinks: true,
