@@ -9,7 +9,7 @@ export default {
   ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/images/preview.jpg',
     nav: [
       {
         text: '首页',
