@@ -6,7 +6,7 @@ hero:
   text: 前天看到了兔子，昨天是鹿，今天是你
   tagline: 记录美好和不美好的生活
   image:
-    src: /logo.png
+    src: /images/preview.jpg
     alt: VitePress
   actions:
     - theme: brand
