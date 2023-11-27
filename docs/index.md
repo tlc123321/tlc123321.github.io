@@ -13,8 +13,8 @@ hero:
       text: 进入博客
       link: /tool/好用的工具
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: GitHub地址
+      link: https://github.com/tlc123321
 features:
   - icon: ⚡️
     title: test1
