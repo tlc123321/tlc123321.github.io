@@ -7,7 +7,7 @@ hero:
   tagline: 记录美好和不美好的生活
   image:
     src: /images/preview.jpg
-    alt: VitePress
+    alt: 后藤独
   actions:
     - theme: brand
       text: 进入博客
