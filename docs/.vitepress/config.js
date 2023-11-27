@@ -1,6 +1,8 @@
+const title = '无名小站'
+const currentYear = new Date().getFullYear()
 export default {
   lang: 'zh-CN',
-  title: '无名小站', // 标题
+  title, // 标题
   titleTemplate: '咚咚', // 标题的后缀
   description: '世界更美好',
   ignoreDeadLinks: true,
@@ -65,7 +67,7 @@ export default {
     lastUpdatedText: '最后更新时间', // 最后更新时间
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Evan You'
+      copyright: `Copyright © ${currentYear}-present ${title}`
     },
     search: {
       provider: 'local'
