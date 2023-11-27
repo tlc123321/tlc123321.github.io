@@ -28,6 +28,12 @@ export default {
       {
         text: '友链',
         link: '/friends/',
+      },
+      {
+        text: '其他站点',
+        items: [
+          { text: 'b站首页',link: 'https://space.bilibili.com/32769241?spm_id_from=333.1007.0.0' },
+        ],
       }
     ], // 右上角导航栏
     sidebar: [
@@ -64,7 +70,7 @@ export default {
     socialLinks: [
       {
         icon: 'github',
-        link: ''
+        link: 'https://github.com/tlc123321?tab=repositories'
       },
     ], // 右上角带有图标的链接
     lastUpdatedText: '最后更新时间', // 最后更新时间
