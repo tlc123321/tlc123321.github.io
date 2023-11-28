@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 进入博客
-      link: /tool/watt
+      link: /blog/tool/watt
     - theme: alt
       text: GitHub地址
       link: https://github.com/tlc123321

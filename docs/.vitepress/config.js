@@ -6,8 +6,10 @@ export default {
   base: '/vitepress/',
   titleTemplate: '咚咚', // 标题的后缀
   description: '世界更美好',
+  i18nRouting: false,
   ignoreDeadLinks: true,
   lastUpdated: true,
+  cleanUrls: true, // 生成干净的url
   themeConfig: {
     // logo: {
     //   src: '../images/preview.jpg',
@@ -18,12 +20,12 @@ export default {
         link: '/',
       },
       {
-        text: '关于',
-        link: '/about/',
+        text: '博客',
+        link: '/blog/tool/watt',
       },
       {
-        text: '归档',
-        link: '/archives/',
+        text: '闲话',
+        link: '/aa/a',
       },
       {
         text: '友链',
@@ -36,38 +38,35 @@ export default {
         ],
       }
     ], // 右上角导航栏
-    sidebar: [
-      {
-        text: '奇奇怪怪的工具',
-        collapsed: false,
-        items: [
-          { text: 'watt Toolkit', link: '/tool/watt' },
-        ]
-      },
-      {
-        text: 'vitepress',
-        collapsed: false,
-        items: [
-          { text: 'vitepress基本配置', link: '/vitepress/base' },
-          { text: 'github部署vitepress', link: '/vitepress/arrange' },
-        ]
-      },
-      {
-        text: '网站构建',
-        collapsed: false,
-        items: [
-          { text: 'Introduction', link: '/introduction' },
-        ]
-      },
-      {
-        text: 'aa',
-        collapsed: false,
-        items: [
-          { text: 'Introduction', link: '/aa/a' },
-          { text: 'Introduction', link: '/aa/b' },
-        ]
-      }
-    ], // 侧边栏菜单
+    sidebar: {
+      '/blog/': [
+        {
+          text: '奇奇怪怪的工具',
+          collapsed: false,
+          items: [
+            { text: 'watt Toolkit', link: '/blog/tool/watt' },
+          ]
+        },
+        {
+          text: 'vitepress',
+          collapsed: false,
+          items: [
+            { text: 'vitepress基本配置', link: '/blog/vitepress/base' },
+            { text: 'github部署vitepress', link: '/blog/vitepress/arrange' },
+          ]
+        },
+      ],
+      '/aa/': [
+        {
+          text: '闲话',
+          collapsed: false,
+          items: [
+            { text: 'Introduction', link: '/aa/a' },
+            { text: 'Introduction', link: '/aa/b' },
+          ]
+        }
+      ],
+    }, // 侧边栏菜单
     socialLinks: [
       {
         icon: 'github',

@@ -57,14 +57,27 @@ yarn docs:dev
 
 主要说下遇到的坑
 
-`index.md`里面`image`配置，`image`是用来设置首页右边的那张大图，如果你想引用本地图片，需将图片放在public文件夹里面,直接引入就行了
+1. `index.md`里面`image`配置，`image`是用来设置首页右边的那张大图，如果你想引用本地图片，需将图片放在public文件夹里面,直接引入就行了
 ``` yml
 image:
   src: /preview.jpg
   alt: 后藤独
 ```
 
-侧边栏菜单如果需要使用svg的icon，可以这样使用
+2. 默认的配置之后地址可能是这样的
+```txt
+http://localhost:5173/vitepress/blog/tool/watt.html
+```
+如果觉得.html后缀太丑，可以通过在`config.js`里面配置
+```js
+cleanUrls: true, // 生成干净的url
+```
+配置之后地址是这样的
+```txt
+http://localhost:5173/vitepress/blog/tool/watt
+```
+
+3. 侧边栏菜单如果需要使用svg的icon，可以这样使用
 ```js
     socialLinks: [
       {
