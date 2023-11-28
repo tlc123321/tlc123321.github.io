@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 无名小站
+  name: 是超超捏的博客
   text: 前天看到了兔子，昨天是鹿，今天是你
   tagline: 记录美好和不美好的生活
   image:
@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 进入博客
-      link: /tool/好用的工具
+      link: /tool/watt
     - theme: alt
       text: GitHub地址
       link: https://github.com/tlc123321
@@ -19,7 +19,7 @@ features:
   - icon: ⚡️
     title: test1
     details: Lorem ipsum...
-    link: /tool/好用的工具
+    link: /tool/watt
   - icon: 🖖
     title: Power of Vue meets Markdown
     details: Lorem ipsum...
