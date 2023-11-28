@@ -4,6 +4,8 @@
 
 [vitepress中文文档](https://process1024.github.io/vitepress/)
 
+[vitepress民间中文文档](https://vitepress.yiov.top/)
+
 [vitepress官方文档](https://vitepress.dev/)
 
 ## 项目创建

@@ -87,6 +87,8 @@ export default {
     search: {
       provider: 'local'
     }, // 搜索
+    outline:[2,3], // 大纲显示2-3级标题
+    outlineTitle:'当前页大纲', // 大纲顶部标题
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
