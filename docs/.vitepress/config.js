@@ -55,6 +55,13 @@ export default {
             { text: 'github部署vitepress', link: '/blog/vitepress/arrange' },
           ]
         },
+        {
+          text: '微信公众号开发',
+          collapsed: false,
+          items: [
+            { text: '微信公众号h5授权', link: '/blog/wechatOfficialAccount/wechatEmpower' },
+          ]
+        }
       ],
       '/aa/': [
         {
