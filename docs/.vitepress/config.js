@@ -24,8 +24,8 @@ export default {
         link: '/blog/tool/watt',
       },
       {
-        text: '闲话',
-        link: '/aa/a',
+        text: '动漫',
+        link: '/comic/suspense/whenTheyCry',
       },
       {
         text: '友链',
@@ -63,13 +63,12 @@ export default {
           ]
         }
       ],
-      '/aa/': [
+      '/comic/': [
         {
-          text: '闲话',
+          text: '悬疑类',
           collapsed: false,
           items: [
-            { text: 'Introduction', link: '/aa/a' },
-            { text: 'Introduction', link: '/aa/b' },
+            { text: '寒蝉鸣泣之时', link: '/comic/suspense/whenTheyCry' },
           ]
         }
       ],
