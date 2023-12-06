@@ -1,5 +1,107 @@
 const title = '是超超捏的博客'
 const currentYear = new Date().getFullYear()
+const blogRoutes = [
+  {
+    text: '奇奇怪怪的工具',
+    collapsed: false,
+    items: [
+      { text: 'watt Toolkit', link: '/blog/tool/watt' },
+    ]
+  },
+  {
+    text: 'vitepress',
+    collapsed: false,
+    items: [
+      { text: 'vitepress基本配置', link: '/blog/vitepress/base' },
+      { text: 'github部署vitepress', link: '/blog/vitepress/arrange' },
+    ]
+  },
+  {
+    text: '微信公众号开发',
+    collapsed: false,
+    items: [
+      { text: '微信公众号h5授权', link: '/blog/wechatOfficialAccount/wechatEmpower' },
+    ]
+  }
+]
+
+const comicRoutes = [
+  {
+    text: '写在前面',
+    collapsed: false,
+    items: [
+      { text: '常用动漫网站', link: '/comic/writeBefore/comicWeb' },
+    ]
+  },
+  {
+    text: '悬疑',
+    collapsed: false,
+    items: [
+      { text: '命运石之门', link: '/comic/suspense/steins' },
+      { text: '寒蝉鸣泣之时', link: '/comic/suspense/whenTheyCry' },
+      { text: '夏日重现', link: '/comic/suspense/summerTimeRendering' },
+      { text: '天国大魔境', link: '/comic/suspense/heavenAndMagicRealm' },
+      { text: '约定的梦幻岛 第一季', link: '/comic/suspense/thePromisedNeverland' },
+      { text: '弹丸论破系列', link: '/comic/suspense/danganronpa' },
+      { text: 'another', link: '/comic/suspense/another' },
+    ]
+  },
+  {
+    text: '转生',
+    collapsed: false,
+    items: [
+      { text: 're：从零开始的异世界生活', link: '/comic/suspense/whenTheyCry' },
+      { text: '无职转生', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+  {
+    text: '恋爱',
+    collapsed: false,
+    items: [
+      { text: '我的青春恋爱物语果然有问题', link: '/comic/suspense/whenTheyCry' },
+      { text: '中二病也要谈恋爱', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+  {
+    text: '治愈',
+    collapsed: false,
+    items: [
+      { text: 'CLANNAD', link: '/comic/suspense/whenTheyCry' },
+      { text: '86-不存在的战区', link: '/comic/suspense/whenTheyCry' },
+      { text: '青春猪头少年不会梦到兔女郎学姐', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+  {
+    text: '致郁',
+    collapsed: false,
+    items: [
+      { text: 'school days', link: '/comic/suspense/whenTheyCry' },
+      { text: '白色相簿1 2', link: '/comic/suspense/whenTheyCry' },
+      { text: '家有女友', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+  {
+    text: '轻松',
+    collapsed: false,
+    items: [
+      { text: '孤独摇滚', link: '/comic/suspense/whenTheyCry' },
+      { text: '轻音少女', link: '/comic/suspense/whenTheyCry' },
+      { text: '玉子市场', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+  {
+    text: '燃系',
+    collapsed: false,
+    items: [
+      { text: '进击的巨人', link: '/comic/suspense/whenTheyCry' },
+      { text: '文豪野犬', link: '/comic/suspense/whenTheyCry' },
+      { text: 'fate/zero', link: '/comic/suspense/whenTheyCry' },
+      { text: 'fate/stay night', link: '/comic/suspense/whenTheyCry' },
+      { text: '罪恶王冠', link: '/comic/suspense/whenTheyCry' },
+      { text: '钢之炼金术师FA', link: '/comic/suspense/whenTheyCry' },
+    ]
+  },
+]
 export default {
   lang: 'zh-CN',
   title, // 标题
@@ -11,9 +113,6 @@ export default {
   lastUpdated: true,
   cleanUrls: true, // 生成干净的url
   themeConfig: {
-    // logo: {
-    //   src: '../images/preview.jpg',
-    // },
     nav: [
       {
         text: '首页',
@@ -21,11 +120,11 @@ export default {
       },
       {
         text: '博客',
-        link: '/blog/tool/watt',
+        link: blogRoutes[0].items[0].link,
       },
       {
         text: '动漫',
-        link: '/comic/suspense/whenTheyCry',
+        link: comicRoutes[0].items[0].link,
       },
       {
         text: '友链',
@@ -39,39 +138,8 @@ export default {
       }
     ], // 右上角导航栏
     sidebar: {
-      '/blog/': [
-        {
-          text: '奇奇怪怪的工具',
-          collapsed: false,
-          items: [
-            { text: 'watt Toolkit', link: '/blog/tool/watt' },
-          ]
-        },
-        {
-          text: 'vitepress',
-          collapsed: false,
-          items: [
-            { text: 'vitepress基本配置', link: '/blog/vitepress/base' },
-            { text: 'github部署vitepress', link: '/blog/vitepress/arrange' },
-          ]
-        },
-        {
-          text: '微信公众号开发',
-          collapsed: false,
-          items: [
-            { text: '微信公众号h5授权', link: '/blog/wechatOfficialAccount/wechatEmpower' },
-          ]
-        }
-      ],
-      '/comic/': [
-        {
-          text: '悬疑类',
-          collapsed: false,
-          items: [
-            { text: '寒蝉鸣泣之时', link: '/comic/suspense/whenTheyCry' },
-          ]
-        }
-      ],
+      '/blog/': blogRoutes,
+      '/comic/': comicRoutes,
     }, // 侧边栏菜单
     socialLinks: [
       {
