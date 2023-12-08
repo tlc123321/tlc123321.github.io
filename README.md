@@ -1,5 +1,12 @@
 # vitePress
 
+# node环境
+
+```txt
+node -v
+v18.18.2
+```
+
 # 安装依赖
 
 ```txt

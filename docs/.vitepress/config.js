@@ -50,55 +50,55 @@ const comicRoutes = [
     text: '转生',
     collapsed: false,
     items: [
-      { text: 're：从零开始的异世界生活', link: '/comic/suspense/whenTheyCry' },
-      { text: '无职转生', link: '/comic/suspense/whenTheyCry' },
+      { text: 're：从零开始的异世界生活', link: '/comic/reincarnation/re0' },
+      { text: '无职转生', link: '/comic/reincarnation/unemployedReincarnation' },
     ]
   },
   {
     text: '恋爱',
     collapsed: false,
     items: [
-      { text: '我的青春恋爱物语果然有问题', link: '/comic/suspense/whenTheyCry' },
-      { text: '中二病也要谈恋爱', link: '/comic/suspense/whenTheyCry' },
+      { text: '我的青春恋爱物语果然有问题', link: '/comic/love/chunwu' },
+      { text: '中二病也要谈恋爱', link: '/comic/love/middleTwoDiseases' },
     ]
   },
   {
     text: '治愈',
     collapsed: false,
     items: [
-      { text: 'CLANNAD', link: '/comic/suspense/whenTheyCry' },
-      { text: '86-不存在的战区', link: '/comic/suspense/whenTheyCry' },
-      { text: '青春猪头少年不会梦到兔女郎学姐', link: '/comic/suspense/whenTheyCry' },
+      { text: 'CLANNAD', link: '/comic/cure/CLANNAD' },
+      { text: '86-不存在的战区', link: '/comic/cure/86' },
+      { text: '青春猪头少年不会梦到兔女郎学姐', link: '/comic/cure/youthPig' },
     ]
   },
   {
     text: '致郁',
     collapsed: false,
     items: [
-      { text: 'school days', link: '/comic/suspense/whenTheyCry' },
-      { text: '白色相簿1 2', link: '/comic/suspense/whenTheyCry' },
-      { text: '家有女友', link: '/comic/suspense/whenTheyCry' },
+      { text: 'school days', link: '/comic/causeDepression/schoolDays' },
+      { text: '白色相簿1 2', link: '/comic/causeDepression/whiteAlbum' },
+      { text: '家有女友', link: '/comic/causeDepression/homeGirlfriend' },
     ]
   },
   {
     text: '轻松',
     collapsed: false,
     items: [
-      { text: '孤独摇滚', link: '/comic/suspense/whenTheyCry' },
-      { text: '轻音少女', link: '/comic/suspense/whenTheyCry' },
-      { text: '玉子市场', link: '/comic/suspense/whenTheyCry' },
+      { text: '孤独摇滚', link: '/comic/relax/BocchiTheRock!' },
+      { text: '轻音少女', link: '/comic/relax/KON' },
+      { text: '玉子市场', link: '/comic/relax/tamakoMarket' },
     ]
   },
   {
     text: '燃系',
     collapsed: false,
     items: [
-      { text: '进击的巨人', link: '/comic/suspense/whenTheyCry' },
-      { text: '文豪野犬', link: '/comic/suspense/whenTheyCry' },
-      { text: 'fate/zero', link: '/comic/suspense/whenTheyCry' },
-      { text: 'fate/stay night', link: '/comic/suspense/whenTheyCry' },
-      { text: '罪恶王冠', link: '/comic/suspense/whenTheyCry' },
-      { text: '钢之炼金术师FA', link: '/comic/suspense/whenTheyCry' },
+      { text: '进击的巨人', link: '/comic/burn/attackOnTitan' },
+      { text: '文豪野犬', link: '/comic/burn/bungoStrayDogs' },
+      { text: 'fate/zero', link: '/comic/burn/fateZero' },
+      { text: 'fate/stay night', link: '/comic/burn/fateStayNight' },
+      { text: '罪恶王冠', link: '/comic/burn/evilCrown' },
+      { text: '钢之炼金术师FA', link: '/comic/burn/fullmetalAlchemist' },
     ]
   },
 ]
