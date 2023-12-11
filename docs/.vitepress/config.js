@@ -22,7 +22,14 @@ const blogRoutes = [
     items: [
       { text: '微信公众号h5授权', link: '/blog/wechatOfficialAccount/wechatEmpower' },
     ]
-  }
+  },
+  {
+    text: 'electron',
+    collapsed: false,
+    items: [
+      { text: 'electron与vue结合', link: '/blog/electron/electron-vue' },
+    ]
+  },
 ]
 
 const comicRoutes = [
