@@ -30,6 +30,13 @@ const blogRoutes = [
       { text: 'electron与vue结合', link: '/blog/electron/electron-vue' },
     ]
   },
+  {
+    text: 'jenkins与gitlab',
+    collapsed: false,
+    items: [
+      { text: 'jenkins与gitlab自动化部署', link: '/blog/jenkins/jenkins-and-gitlab' },
+    ]
+  },
 ]
 
 const comicRoutes = [
