@@ -1,0 +1,1 @@
+# BanG Dream! It's MyGO!!!!!
