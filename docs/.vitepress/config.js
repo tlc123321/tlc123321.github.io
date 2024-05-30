@@ -24,6 +24,13 @@ const blogRoutes = [
     ]
   },
   {
+    text: '微信小程序',
+    collapsed: false,
+    items: [
+      { text: '小程序web-view页面分享问题', link: '/blog/wechatMP/wechatMPShare' },
+    ]
+  },
+  {
     text: 'electron',
     collapsed: false,
     items: [
